@@ -1,0 +1,37 @@
+.navigation ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+.navigation ul li {
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.registration-form, .login-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    padding: 10px;
+    color: #7b7b7b;
+}
+
+.error {
+
+}

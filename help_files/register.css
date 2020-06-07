@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.registration-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    padding: 10px;
+    color: #7b7b7b;
+}
