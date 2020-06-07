@@ -32,24 +32,11 @@ if ($_SESSION["loggued_on_user"] !== "admin")
 		</li>
 	</ul>
 </div>
-<h1 class="display-4">Create new product</h1>
+<h1 class="display-4">Create new category</h1>
 <div class="registration-form">
-    <form name="registration" method="post" action="createproduct.php">
-        Сategory:<br>
-        <select name="category">
-            <option value="other">Other</option>
-
-
-        </select>
-        <br>Product's name:<br>
-        <input type="text" name="product" max="30" required><br>
-        Description:<br>
-        <input type="text" name="description" required><br>
-        Price:<br>
-        <input type="number" name="price" min="0" max="100000000" required ><br>
-        Image:<br>
-        <input type="file" name="image" required><br>
-
-        <br><input class="btn btn-primary" type="submit" name="submit" value="Create"><br>
-    </form>
+	<form name="registration" method="post" action="createcategory.php">
+		<br>Category's name:<br>
+		<input type="text" name="category" max="30" required><br>
+		<br><input class="btn btn-primary" type="submit" name="submit" value="Create"><br>
+	</form>
 </div>
